@@ -43,13 +43,13 @@ Additionally, volume can be very high. Again, I can't find concrete figures, but
 
 In 2025, bidders are also liable to be cloud-native systems. This condition is a double-edged sword. On the one hand, the technical challenges I mention are feasible to solve with the application of money.
 
-Microsoft's Azure CosmosDB will sell you up to 1,000,000 RU/s, which should easily support a million bids per second (with ordinary caching and a huge number of front-end servers) -- but it won't be cheap. [Looking at Microsoft's pricing for Cosmos DB standard provisioned throughput], they price RU/s at $5.84/month for 100 RU/s. To buy a million RU/s, you'd have a CosmosDB bill starting at $58,400/month (for one write region). That sort of spending isn't within my budget -- tackling this successfully will involve judicious use of resources and thoughtful design.
+Microsoft's Azure CosmosDB will sell you up to 1,000,000 RU/s, which should easily support a million bids per second (with ordinary caching and a huge number of front-end servers) -- but it won't be cheap. [Looking at Microsoft's pricing for Cosmos DB standard provisioned throughput](https://azure.microsoft.com/en-us/pricing/details/cosmos-db/standard-provisioned/#pricing), they price RU/s at $5.84/month for 100 RU/s. To buy a million RU/s, you'd have a CosmosDB bill starting at $58,400/month (for one write region). That sort of spending isn't within my budget -- tackling this successfully will involve judicious use of resources and thoughtful design.
 
 The operations per second challenge could also be solved without much trouble by deploying an army of virtual machines. Surely 1000 VMs could scale suitably, even with naive code and no optimization.
 
 ## Opportunities
 
-Despite those challenges, this is clearly something that does exist and succeeds already. It's also something where the open spec and public product documentation for existing vendors allows some reasonable insight into what features exist currently and what options are realistic to expect and implement. Since I'm doing this for my own edification and to develop and demonstrated my own skills, I know for a fact that I'm not creating a world-beating product.
+Despite those challenges, this is clearly something that does exist and succeeds already. It's also something where the open spec and public product documentation for existing vendors allows some reasonable insight into what features exist currently and what options are realistic to expect and implement. Since I'm doing this for my own edification and to develop and demonstrate my own skills, I don't need to create a world-beating product to succeed.
 
 ## Scope
 
