@@ -1,6 +1,6 @@
 ---
-title: "Post-Title"
-date: 2025-03-12
+title: "Introducing myself"
+date: 2025-03-12 18:00:00 -5:00
 ---
 
 ### Introduction

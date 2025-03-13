@@ -1,6 +1,6 @@
 ---
-title: "New-Challenge"
-date: 2025-03-12
+title: "New Challenge"
+date: 2025-03-12 21:30:00 -5:00
 ---
 
 ### Why?
